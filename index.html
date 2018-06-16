@@ -4,6 +4,45 @@
 <title>Survey Form</title>
 </head>
 <body>
-Hello
+  <h1 id="title">Survey Form</h1>
+  <p>This is a fake survey form. Yay for fake survey forms!</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name"/>
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email"/>
+    <label for="number" id="number-label">Age:</label>
+    <input type="number" id="number" placeholder="Enter your age"/>
+    <label for="dropdown" id="dropdown-label">Choose wisely!</label>
+    <select id="dropdown">
+      <option disabled selected value> -- select an option -- </option>
+      <option>Bulbasaur</option>
+      <option>Squirtle</option>
+      <option>Charmander</option>
+    </select>
+    <label for="radio" id="radio-label">Radio:</label>
+    <ul id="radio">
+      <li>
+        <input type="radio" id="am-radio" name="radio" value="am">AM
+      </li>
+      <li>
+        <input type="radio" id="fm-radio" name="radio" value="fm">FM
+      </li>
+    </ul>
+    <label for="checkbox" id="checkbox-label">To do:</label>
+    <ul id="checkbox">
+      <li>
+        <input type="checkbox" value="1"/>Play pickleball
+      </li>
+      <li>
+        <input type="checkbox" value="2"/>Shower
+      </li>
+      <li>
+        <input type="checkbox" value="3"/>Eat Dinner
+      </li>
+      <li>
+        <input type="checkbox" value="4"/>Code more things
+      </li>
+  </form>
 </body>
 </html>
